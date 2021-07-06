@@ -9,7 +9,7 @@
 ## 풀이
 
  - 소수 판별, GCD, LCM, 유클리드 호제, 반복문
- - 시간복잡도 : <img src="https://render.githubusercontent.com/render/math?math=O(NM)">
+ - 시간복잡도 : <img src="https://render.githubusercontent.com/render/math?math=O(N\sqrt{X})"> 또는 <img src="https://render.githubusercontent.com/render/math?math=O(X\log\log X)">
 
 주어진 수열 중에 소수를 찾고 찾은 소수들의 최소 공배수를 구해주면 됩니다.  
 
