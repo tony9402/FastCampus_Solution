@@ -15,7 +15,7 @@
 | 1 세트| [바로 가기](./SET_1) | [tony9402](https://www.acmicpc.net/user/tony9402) |
 | 2 세트| 솔루션 준비중 | - |
 | 3 세트| 솔루션 준비중 | - |
-| 4 세트| [바로 가기](https://github.com/cdog-gh/gh_coding_test/tree/main/1) | [chogahui](https://www.acmicpc.net/user/chogahui) |
+| 4 세트| [바로 가기](https://github.com/cdog-gh/gh_coding_test/tree/main/1) | [chogahui05](https://www.acmicpc.net/user/chogahui05) |
 | 5 세트| 솔루션 준비중 | - |
 | 6 세트| 솔루션 준비중 | - |
 | 7 세트| 솔루션 준비중 | - |
