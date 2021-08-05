@@ -1,0 +1,53 @@
+{
+    "title": "# FastCampus 모의고사 2회차 풀이",
+    "problemIds": [
+        "21937",
+        "21938",
+        "21939",
+        "21940",
+        "21941",
+        "21942",
+        "21943",
+        "21944"
+    ],
+    "21937": {
+        "creator": "S2",
+        "official": "S2",
+        "name": "작업"
+    },
+    "21938": {
+        "creator": "S2",
+        "official": "S2",
+        "name": "영상처리"
+    },
+    "21939": {
+        "creator": "G4",
+        "official": "G4",
+        "name": "문제 추천 시스템 Version 1"
+    },
+    "21940": {
+        "creator": "G4",
+        "official": "G4",
+        "name": "가운데에서 만나기"
+    },
+    "21941": {
+        "creator": "G3",
+        "official": "G5",
+        "name": "문자열 제거"
+    },
+    "21942": {
+        "creator": "G3",
+        "official": "G2",
+        "name": "부품 대여장"
+    },
+    "21943": {
+        "creator": "G2",
+        "official": "G2",
+        "name": "연산 최대로"
+    },
+    "21944": {
+        "creator": "G2",
+        "official": "G3",
+        "name": "문제 추천 시스템 Version 2"
+    }
+}
