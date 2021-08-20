@@ -1,27 +1,45 @@
+// Save Source Code
 import java.util.*;
 import java.lang.*;
 import java.io.*;
 
 public class Main {
+    static int[] used, index, rindex, array, temp;
+    static ArrayList<ArrayList<Integer>> group;
     public static void main(String[] args) {
         FastReader rd = new FastReader();
 
         int N = rd.nextInt();
-        int K = rd.nextInt();
-
-        int[] index = new int[N + 1];
-        int[] array = new int[N + 1];
-        int[] temp  = new int[N + 1];
+        long K = rd.nextLong();
+        used = index = rindex = array = temp = new int[N + 1];
+        group = new ArrayList<ArrayList<Integer>>();
+        for(int i = 0; i <= N; i++) {
+            group.add(new ArrayList<Integer>());
+            used[i] = -1;
+        }
 
         for(int i = 1; i <= N; i++) array[i] = rd.nextInt();
         for(int i = 1; i <= N; i++) index[i] = rd.nextInt();
-        for(int i = 1; i <= K; i++) {
-            for(int j = 1; j <= N; j++) temp[index[j]] = array[j];
-            for(int j = 1; j <= N; j++) array[j] = temp[j];
-        }
+
         for(int i = 1; i <= N; i++) {
-            System.out.print(array[i] + " ");
+            if(used[i] == -1) dfs(i, i, 1);
+            int idx  = rindex[i];
+            int size = group.get(idx).size();
+            int group_index = (int)(used[i] + K % size - 1) % size;
+            int pre = group.get(idx).get(group_index);
+            temp[pre] = array[i];
         }
+
+        for(int i = 1; i <= N; i++) {
+            System.out.print(temp[i] + " ");
+        }
+    }
+
+    static void dfs(int cur, int root, int number) {
+        used[cur] = number;
+        rindex[cur] = root;
+        group.get(root).add(cur);
+        if(used[index[cur]] == -1) dfs(index[cur], root, number + 1);
     }
 
     static class FastReader {

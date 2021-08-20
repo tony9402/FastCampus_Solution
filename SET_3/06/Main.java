@@ -8,20 +8,28 @@ public class Main {
 
         int N = rd.nextInt();
         int K = rd.nextInt();
+        int[] array = new int[N];
 
-        int[] index = new int[N + 1];
-        int[] array = new int[N + 1];
-        int[] temp  = new int[N + 1];
+        for(int i = 0; i < N; i++) {
+            array[i] = rd.nextInt();
+        }
 
-        for(int i = 1; i <= N; i++) array[i] = rd.nextInt();
-        for(int i = 1; i <= N; i++) index[i] = rd.nextInt();
-        for(int i = 1; i <= K; i++) {
-            for(int j = 1; j <= N; j++) temp[index[j]] = array[j];
-            for(int j = 1; j <= N; j++) array[j] = temp[j];
+        int erase_count = 0;
+        int answer = 0;
+
+        for(int i = 0, r = 0; i < N; i++) {
+            while(r < N) {
+                if(array[r] % 2 == 0) r ++;
+                else {
+                    if(erase_count == K) break;
+                    erase_count ++;
+                    r ++;
+                }
+            }
+            answer = Math.max(answer, r - i - erase_count);
+            if(array[i] % 2 == 1) erase_count --;
         }
-        for(int i = 1; i <= N; i++) {
-            System.out.print(array[i] + " ");
-        }
+        System.out.println(answer);
     }
 
     static class FastReader {
@@ -59,4 +67,3 @@ public class Main {
         }
     }
 }
-
