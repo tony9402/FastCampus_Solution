@@ -1,45 +1,47 @@
-// Save Source Code
 import java.util.*;
 import java.lang.*;
 import java.io.*;
 
 public class Main {
-    static int[] used, index, rindex, array, temp;
-    static ArrayList<ArrayList<Integer>> group;
+    static int MAXN = 1000005;
+    static int []D = new int[MAXN];
+    static int []arr = new int[MAXN];
+    static int []used = new int[MAXN];
+    static int []order = new int[MAXN];
+    static int []answer = new int[MAXN];
     public static void main(String[] args) {
         FastReader rd = new FastReader();
 
         int N = rd.nextInt();
         long K = rd.nextLong();
-        used = index = rindex = array = temp = new int[N + 1];
-        group = new ArrayList<ArrayList<Integer>>();
-        for(int i = 0; i <= N; i++) {
-            group.add(new ArrayList<Integer>());
-            used[i] = -1;
-        }
 
-        for(int i = 1; i <= N; i++) array[i] = rd.nextInt();
-        for(int i = 1; i <= N; i++) index[i] = rd.nextInt();
+        for(int i = 1; i <= N; i++) arr[i] = rd.nextInt();
+        for(int i = 1; i <= N; i++) D[i] = rd.nextInt();
 
         for(int i = 1; i <= N; i++) {
-            if(used[i] == -1) dfs(i, i, 1);
-            int idx  = rindex[i];
-            int size = group.get(idx).size();
-            int group_index = (int)(used[i] + K % size - 1) % size;
-            int pre = group.get(idx).get(group_index);
-            temp[pre] = array[i];
+            if(used[i] == 1) continue;
+            int siz = 0, j = i;
+            while(true) {
+                order[siz ++] = j;
+                used[j] = 1;
+                j = D[j];
+                if(i == j) break;
+            }
+            for(j = 0; j < siz; j++) {
+                int cur = order[j];
+                int next = order[(int)((j + K) % siz)];
+                answer[next] = arr[cur];
+            }
         }
-
+        
+        // StringBuilder 사용 O : 약 1.3s
+        // StringBuilder 사용 X : 약 6.0s
+        StringBuilder sb = new StringBuilder();
         for(int i = 1; i <= N; i++) {
-            System.out.print(temp[i] + " ");
+            sb.append(answer[i]);
+            sb.append(" ");
         }
-    }
-
-    static void dfs(int cur, int root, int number) {
-        used[cur] = number;
-        rindex[cur] = root;
-        group.get(root).add(cur);
-        if(used[index[cur]] == -1) dfs(index[cur], root, number + 1);
+        System.out.print(sb.toString());
     }
 
     static class FastReader {
