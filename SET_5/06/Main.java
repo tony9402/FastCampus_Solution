@@ -3,10 +3,10 @@ import java.lang.*;
 import java.io.*;
 
 public class Main {
-    final static long INF = Long.parseLong("3f3f3f3f3f3f3f3f", 16);
+    final static int INF = 0x3f3f3f3f;
     static ArrayList<ArrayList<Pair>> graph;
-    static Long []distS;
-    static Long []distE;
+    static int []distS;
+    static int []distE;
     static int []used;
     public static void main(String[] args) {
         FastReader rd = new FastReader();
@@ -15,8 +15,8 @@ public class Main {
         int M = rd.nextInt();
 
         used = new int[N];
-        distS = new Long[N];
-        distE = new Long[N];
+        distS = new int[N];
+        distE = new int[N];
         graph = new ArrayList<>();
         for(int i = 0; i < N; i++) {
             graph.add(new ArrayList<Pair>());
@@ -47,9 +47,9 @@ public class Main {
         System.out.println(ans);
     }
 
-    static public void Dijkstra(Long []dist, int S) {
+    static public void Dijkstra(int []dist, int S) {
         PriorityQueue<Pair> pq = new PriorityQueue<>();
-        dist[S] = 0L;
+        dist[S] = 0;
         pq.add(new Pair(0, S));
         while(!pq.isEmpty()) {
             Pair cur = pq.poll();
@@ -83,10 +83,10 @@ public class Main {
     }
 
     static class Pair implements Comparable<Pair> {
-        long first;
+        int first;
         int second;
 
-        public Pair(long first, int second) {
+        public Pair(int first, int second) {
             this.first = first;
             this.second = second;
         }
@@ -96,7 +96,7 @@ public class Main {
             if(this.first == o.first) {
                 return Integer.compare(this.second, o.second);
             }
-            return Long.compare(this.first, o.first);
+            return Integer.compare(this.first, o.first);
         }
     }
 
