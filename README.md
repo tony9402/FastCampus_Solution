@@ -19,7 +19,7 @@
 | 5 세트| [바로 가기](./SET_5) | [tony9402](https://www.acmicpc.net/user/tony9402) |
 | 6 세트| [바로 가기](https://github.com/cdog-gh/gh_coding_test/tree/main/2) | [chogahui05](https://www.acmicpc.net/user/chogahui05) |
 | 7 세트| 솔루션 준비중 | - |
-| 8 세트| 솔루션 준비중 | - | 
+| 8 세트| [바로 가기](./SET_8) | [tony9402](https://www.acmicpc.net/user/tony9402) |
 
 ### 입력 형식
 
