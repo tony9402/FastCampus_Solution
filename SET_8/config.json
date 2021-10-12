@@ -1,0 +1,53 @@
+{
+    "title": "# FastCampus 모의고사 8회차 풀이",
+    "problemIds": [
+        "22942",
+        "22943",
+        "22944",
+        "22945",
+        "22946",
+        "22947",
+        "22948",
+        "22949"
+    ],
+    "22942": {
+        "creator": "S2",
+        "official": "G5",
+        "name": "데이터 체커"
+    },
+    "22943": {
+        "creator": "S2",
+        "official": "S1",
+        "name": "수"
+    },
+    "22944": {
+        "creator": "G5",
+        "official": "G4",
+        "name": "죽음의 비"
+    },
+    "22945": {
+        "creator": "G4",
+        "official": "G5",
+        "name": "팀 빌딩"
+    },
+    "22946": {
+        "creator": "G3",
+        "official": "G2",
+        "name": "원 이동하기 1"
+    },
+    "22947": {
+        "creator": "G3",
+        "official": "G2",
+        "name": "실행 시간"
+    },
+    "22948": {
+        "creator": "G2",
+        "official": "G2",
+        "name": "원 이동하기 2"
+    },
+    "22949": {
+        "creator": "G2",
+        "official": "G1",
+        "name": "회전 미로 탐색"
+    }
+}
