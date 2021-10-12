@@ -18,7 +18,7 @@
 | 4 세트| [바로 가기](https://github.com/cdog-gh/gh_coding_test/tree/main/1) | [chogahui05](https://www.acmicpc.net/user/chogahui05) |
 | 5 세트| [바로 가기](./SET_5) | [tony9402](https://www.acmicpc.net/user/tony9402) |
 | 6 세트| [바로 가기](https://github.com/cdog-gh/gh_coding_test/tree/main/2) | [chogahui05](https://www.acmicpc.net/user/chogahui05) |
-| 7 세트| 솔루션 준비중 | - |
+| 7 세트| [바로 가기](https://github.com/ndb796/Fast_Campus_Algorithm_Lecture_Notes/tree/master/Java369) | [ndb796](https://www.acmicpc.net/user/ndb796) |
 | 8 세트| [바로 가기](./SET_8) | [tony9402](https://www.acmicpc.net/user/tony9402) |
 
 ### 입력 형식
