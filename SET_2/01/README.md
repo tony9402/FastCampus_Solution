@@ -9,7 +9,7 @@
 ## 풀이
 
  - 그래프 탐색, DFS, BFS
- - 시간복잡도 : <img src="https://render.githubusercontent.com/render/math?math=O(N%2BM)">
+ - 시간복잡도 : <img src="https://render.githubusercontent.com/render/math?math=O(NM)">
 
 해당 문제는 RGB 3개의 채널로 구성되어 있는 image를 gray scale로 변경하여 이진화를 시키는 알고리즘입니다.  
 gray scale로 변경하는 식은 간단하게 평균으로 구하도록 하였습니다.  
