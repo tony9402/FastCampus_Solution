@@ -3,6 +3,7 @@
 using namespace std;
 
 vector<tuple<int, int, int>> v;
+bool points[2020202];
 
 int main(){
     ios::sync_with_stdio(false);
@@ -13,6 +14,9 @@ int main(){
         int x, r; cin >> x >> r;
         v.emplace_back(x - r, 1, i);
         v.emplace_back(x + r, -1, i);
+        if(points[x - r + 1000000]) return cout << "NO", 0;
+        if(points[x + r + 1000000]) return cout << "NO", 0;
+        points[x - r + 1000000] = points[x + r + 1000000] = 1;
     }
     sort(v.begin(), v.end());
     stack<int> st;
