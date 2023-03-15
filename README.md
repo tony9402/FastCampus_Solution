@@ -1,27 +1,18 @@
 # [FastCampus 모의고사](https://fastcampus.co.kr/dev_online_codingtest) 공식 솔루션
 
-### 업데이트 예정
-
-아래와 같은 우선순위로 업데이트 될 예정입니다.
-
-1. 자바 코드 업로드
-2. 풀이 업로드
-3. 파이썬 C++ 언어 솔루션 코드 업로드
-
-### 문제 풀이
+## 문제 풀이
 
 | 세트  |   링크   | 출제자 |
 | :---: | :------: | :----: |
-| 1 세트| [바로 가기](./SET_1) | [tony9402](https://www.acmicpc.net/user/tony9402) |
-| 2 세트| [바로 가기](./SET_2) | [tony9402](https://www.acmicpc.net/user/tony9402) |
-| 3 세트| [바로 가기](./SET_3) | [tony9402](https://www.acmicpc.net/user/tony9402) |
+| 1 세트| [바로 가기](./set1) | [tony9402](https://www.acmicpc.net/user/tony9402) |
+| 2 세트| [바로 가기](./set2) | [tony9402](https://www.acmicpc.net/user/tony9402) |
+| 3 세트| [바로 가기](./set3) | [tony9402](https://www.acmicpc.net/user/tony9402) |
 | 4 세트| [바로 가기](https://github.com/cdog-gh/gh_coding_test/tree/main/1) | [chogahui05](https://www.acmicpc.net/user/chogahui05) |
-| 5 세트| [바로 가기](./SET_5) | [tony9402](https://www.acmicpc.net/user/tony9402) |
+| 5 세트| [바로 가기](./set5) | [tony9402](https://www.acmicpc.net/user/tony9402) |
 | 6 세트| [바로 가기](https://github.com/cdog-gh/gh_coding_test/tree/main/2) | [chogahui05](https://www.acmicpc.net/user/chogahui05) |
-| 7 세트| [바로 가기](https://github.com/ndb796/Fast_Campus_Algorithm_Lecture_Notes/tree/master/Java369) | [ndb796](https://www.acmicpc.net/user/ndb796) |
-| 8 세트| [바로 가기](./SET_8) | [tony9402](https://www.acmicpc.net/user/tony9402) |
+| 7 세트| [바로 가기](./set7) | [tony9402](https://www.acmicpc.net/user/tony9402) |
 
-### 입력 형식
+## 입력 형식
 
 [A+B](https://www.acmicpc.net/problem/1000) 예시
 
