@@ -4,6 +4,7 @@
 
 .cph/
 *.bin
+.vscode/
 
 ### C++ ###
 # Prerequisites
