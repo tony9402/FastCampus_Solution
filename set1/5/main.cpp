@@ -46,7 +46,7 @@ int main(){
 
     while(!q.empty()){
         auto [y, x] = q.front(); q.pop();
-        if(~trace[y][x] & 16){
+        if(~trace[y][x] & 16) {
             trace[y][x] |= 16;
             ans++;
         }

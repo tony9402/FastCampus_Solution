@@ -17,8 +17,8 @@ public class Main {
         visited = new boolean[N][M][5];
 
         Queue<Pair> que = new LinkedList<>();
-        for(int i=0;i<N;i++){
-            for(int j=0;j<M;j++){
+        for (int i = 0; i < N; i++) {
+            for (int j = 0; j < M; j++) {
                 Map[i][j] = rd.nextInt();
                 if(Map[i][j] == 9){
                     que.add(new Pair(i, j));
@@ -35,7 +35,7 @@ public class Main {
                 answer ++;
             }
 
-            for(int k=0;k<4;k++) {
+            for (int k = 0; k < 4; k++) {
                 int dir = k;
                 int cy = y, cx = x;
                 if(visited[cy][cx][dir]) continue;
@@ -44,7 +44,7 @@ public class Main {
                     cy += dy[dir];
                     cx += dx[dir];
                     if(0 > cy || cy >= N || 0 > cx || cx >= M) break;
-                    if(visited[cy][cx][dir])break;
+                    if (visited[cy][cx][dir]) break;
                     visited[cy][cx][dir] = true;
                     if(!visited[cy][cx][4]){
                         visited[cy][cx][4] = true;
