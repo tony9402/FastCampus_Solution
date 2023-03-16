@@ -11,7 +11,7 @@ int main(){
     vector<int> state(N + 1);
     for(int i = 1; i <= N; i++) cin >> state[i];
 
-    for(int i = 0 ; i < M; i++){
+    for (int i = 0; i < M; i++) {
         int command, a, b; cin >> command >> a >> b;
         if(command == 1){
             state[a] = b;
