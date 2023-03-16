@@ -16,7 +16,7 @@ int main() {
 
     int N; cin >> N;
     G.resize(N + 1);
-    for(int i=0;i<N;i++) {
+    for (int i = 0; i < N; i++) {
         int cur, left, right; cin >> cur >> left >> right;
         G[cur].first = left;
         G[cur].second = right;
