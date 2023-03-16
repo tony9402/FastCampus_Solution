@@ -6,7 +6,6 @@
 using namespace std;
 
 vector<vector<int>> graph;
-vector<int> dist;
 vector<int> used;
 vector<int> pre;
 
