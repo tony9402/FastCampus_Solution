@@ -5,7 +5,7 @@ import java.io.*;
 class Main{
     static class pair {
         int siz, score;
-        pair(int _siz, int _score){
+        pair(int _siz, int _score) {
             this.siz = _siz;
             this.score = _score;
         }

@@ -13,7 +13,7 @@ int main(){
     vector<vector<pair<int, int>>> V(siz + 1);
     vector<int> DP(siz + 1);
     int N; cin >> N;
-    for(int i = 0; i < N; ++i){
+    for(int i = 0; i < N; ++i) {
         string X; int score; cin >> X >> score;
         if((int)X.size() >= score) continue;
         int idx = 0;
