@@ -14,13 +14,14 @@ int main(){
     cin.tie(0);
 
     int N; cin >> N;
+    const int base = 1010000;
     for(int i = 1; i <= N; i++) {
         int x, r; cin >> x >> r;
         v.emplace_back(x - r, 1, i);
         v.emplace_back(x + r, -1, i);
-        if(points[x - r + 1000000]) return cout << "NO", 0;
-        if(points[x + r + 1000000]) return cout << "NO", 0;
-        points[x - r + 1000000] = points[x + r + 1000000] = 1;
+        if(points[x - r + base]) return cout << "NO", 0;
+        if(points[x + r + base]) return cout << "NO", 0;
+        points[x - r + base] = points[x + r + base] = 1;
     }
     sort(v.begin(), v.end());
     stack<int> st;
