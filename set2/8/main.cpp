@@ -38,7 +38,7 @@ int main(){
             }
         }
         else if(cmd == "recommend2") {
-            int x;cin >> x;
+            int x; cin >> x;
             if(x == -1){
                 cout << problemAllList.begin()->second << '\n';
             }
