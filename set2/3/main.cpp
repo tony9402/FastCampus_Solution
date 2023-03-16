@@ -13,14 +13,14 @@ int main(){
     cin.tie(0);
 
     int N; cin >> N;
-    for(int i=0;i<N;i++){
+    for (int i = 0; i < N; i++) {
         int problem, level; cin >> problem >> level;
         problemList.insert(pair<int, int>(level, problem));
         problemInfo[problem] = level;
     }
 
     int M; cin >> M;
-    for(int i=0;i<M;i++){
+    for (int i = 0; i < M; i++) {
         string cmd; cin >> cmd;
         if(cmd == "recommend") {
             int x; cin >> x;
