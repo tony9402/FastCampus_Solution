@@ -16,7 +16,7 @@ long long getDay(string date) {
     long long day    = stoi(date.substr(8, 2));
 
     long long cur = day - 1;
-    for(int i=0;i<month;i++) cur += days[i];
+    for (int i = 0; i < month; i++) cur += days[i];
     return cur;
 }
 
@@ -43,7 +43,7 @@ int main(){
 
     long long limit = stoi(info.substr(0, 3)) * 1440 + getTime(info.substr(4));
 
-    for(int i = 0; i < N; ++i){
+    for (int i = 0; i < N; ++i) {
         string date, time, part, name;
         cin >> date >> time >> part >> name;
         long long curtime = getTime(date, time);
