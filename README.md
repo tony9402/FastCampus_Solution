@@ -113,3 +113,7 @@ a, b = map(int, input().split())
 print(a + b)
 ```
 </details>
+
+## 오타 및 오류 제보
+
+[Issue](https://github.com/tony9402/FastCampus_Solution/issues)로 틀린 부분을 알려주시면 감사하겠습니다.
