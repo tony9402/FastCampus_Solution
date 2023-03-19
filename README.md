@@ -1,5 +1,11 @@
 # [FastCampus 모의고사](https://fastcampus.co.kr/dev_online_codingtest) 공식 솔루션
 
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftony9402%2FFastCampus_Solution&count_bg=%236BC923&title_bg=%2310214E&icon=github.svg&icon_color=%23E7E7E7&title=Hits&edge_flat=false)](https://hits.seeyoufarm.com)
+[![Issue](https://img.shields.io/github/issues/tony9402/FastCampus_Solution/wrong%20or%20typo)](https://github.com/tony9402/FastCampus_Solution/issues?q=is%3Aopen+is%3Aissue+label%3A%22wrong+or+typo%22)
+![C++](https://img.shields.io/badge/C++-010101?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-010101?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-010101?style=flat-square&logo=java&logoColor=white)
+
 ## 문제 풀이
 
 | 세트  |   링크   | 출제자 |
