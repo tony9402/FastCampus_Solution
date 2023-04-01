@@ -13,9 +13,9 @@
 | 1 세트| [바로 가기](./set1) | [tony9402](https://www.acmicpc.net/user/tony9402) |
 | 2 세트| [바로 가기](./set2) | [tony9402](https://www.acmicpc.net/user/tony9402) |
 | 3 세트| [바로 가기](./set3) | [tony9402](https://www.acmicpc.net/user/tony9402) |
-| 4 세트| [바로 가기](https://github.com/cdog-gh/gh_coding_test/tree/main/1) | [chogahui05](https://www.acmicpc.net/user/chogahui05) |
+| 4 세트| [바로 가기](./set4) | [chogahui05](https://www.acmicpc.net/user/chogahui05) |
 | 5 세트| [바로 가기](./set5) | [tony9402](https://www.acmicpc.net/user/tony9402) |
-| 6 세트| [바로 가기](https://github.com/cdog-gh/gh_coding_test/tree/main/2) | [chogahui05](https://www.acmicpc.net/user/chogahui05) |
+| 6 세트| [바로 가기](./set6) | [chogahui05](https://www.acmicpc.net/user/chogahui05) |
 | 7 세트| [바로 가기](./set7) | [tony9402](https://www.acmicpc.net/user/tony9402) |
 
 ## 입력 형식
